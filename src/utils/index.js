@@ -7,7 +7,6 @@ import cast from "../assets/images/5780082.jpg";
 import tracer from "../assets/images/9707240_4218748.jpg";
 import a4 from "../assets/images/a4.webp";
 import insta from "../assets/images/techn.jpg";
-import a5 from "../assets/images/wordpress.jpeg";
 export const headlines = [
     "Hi, I'm Bhanu Teja.",
     "I'm a Engineering Student.",
@@ -116,5 +115,6 @@ export const articles = [
         resume: "Secured first place in a competitive WordPress contest, demonstrating exceptional skill and creativity in website design and development.",
         url:
             "https://heyzine.com/flip-book/5aa7f9f283.html",
-        image: a5    },
+        image: "https://i.ibb.co/1fd1MBw/wordpress.jpg"
+    },
 ];
