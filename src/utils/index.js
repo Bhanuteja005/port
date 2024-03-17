@@ -6,8 +6,8 @@ import chat from "../assets/images/368960-PB8Z2Y-988.jpg";
 import cast from "../assets/images/5780082.jpg";
 import tracer from "../assets/images/9707240_4218748.jpg";
 import a4 from "../assets/images/a4.webp";
-import a5 from "../assets/images/a5.jpg";
 import insta from "../assets/images/techn.jpg";
+import a5 from "../assets/images/wordpress.jpeg";
 export const headlines = [
     "Hi, I'm Bhanu Teja.",
     "I'm a Engineering Student.",
