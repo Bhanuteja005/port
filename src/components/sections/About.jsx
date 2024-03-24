@@ -47,7 +47,7 @@ const About = () => {
                         Currently, I work passively for{' '}
                         <Tooltip
                             name={'AIM'}
-                            path={'https://aim-mlrit.vercel.app/'}
+                            path={''}
                             image={transition}
                         />{' '}
 
@@ -57,7 +57,7 @@ const About = () => {
 
                         <Tooltip
                             name={'CloudOpt'}
-                            path={'https://vercel.com/bhanu-tejas-projects/cloud-wise-ai'}
+                            path={''}
                             image={zoomer}
                         />
                     </div>

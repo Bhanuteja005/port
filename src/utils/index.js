@@ -105,13 +105,13 @@ export const articles = [
         image: a4
     },
     {
-        title: "Innovation Challenge'23 winner",
+        title: "Innovation Challenge'23",
         resume: "Clinched victory in a college MicroProject competition, surpassing 200+ teams, with a standout project that exemplified innovation and technical excellence.",
         url: "https://heyzine.com/flip-book/2a5bf15b05.html",
         image: a3
     },
     {
-        title: "Wordpress",
+        title: "Workshop Carnival-Wordpress",
         resume: "Secured first place in a competitive WordPress contest, demonstrating exceptional skill and creativity in website design and development.",
         url:
             "https://heyzine.com/flip-book/5aa7f9f283.html",
