@@ -9,7 +9,7 @@ import a4 from "../assets/images/a4.webp";
 import insta from "../assets/images/techn.jpg";
 export const headlines = [
     "Hi, I'm Bhanu Teja.",
-    "I'm a Engineering Student.",
+    "I'm a Web Developer.",
     "Over the past few years, I've immersed myself in building and scaling Frontend software while actively tackling backend challenges."
 ];
 
