@@ -31,6 +31,13 @@ export const projects = [
         techStack: ['Flutterflow', 'Barcode Integration', 'Firebase']
     },
     {
+        title: 'Zomato-Clone',
+        image: pen,
+        linkGithub: 'https://github.com/Bhanuteja005/zomato-master',
+        description: 'Developed a full-fledged Zomato clone website, replicating the core functionalities of the popular food delivery platform to enhance user engagement and usability.',
+        techStack: ['MERN Stack', 'Tailwind CSS']
+    },
+    {
         title: 'SLIMQ',
         image: ora,
         linkGithub: 'https://github.com/Bhanuteja005/chatbot-bha',
@@ -61,13 +68,7 @@ export const projects = [
         description: 'Developed Student Events Hub, a user-friendly web platform centralizing college events information for students, fostering easy access and engagement without technical complexity.',
         techStack: ['Html', 'Django', 'Javascript','CSS']
     },
-    {
-        title: 'Zomato-Clone',
-        image: pen,
-        linkGithub: 'https://github.com/Bhanuteja005/zomproject',
-        description: 'Debuted with my inaugural project: a sample Zomato-inspired web page, showcasing an early exploration into web development.',
-        techStack: ['MERN Stack', 'Tailwind CSS']
-    },
+    
 ];
 
 export const skillsWork = [
