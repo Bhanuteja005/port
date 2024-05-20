@@ -56,7 +56,7 @@ const About = () => {
                         project at{' '}
 
                         <Tooltip
-                            name={'CloudOpt'}
+                            name={'Skout'}
                             path={''}
                             image={zoomer}
                         />
