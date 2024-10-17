@@ -42,7 +42,6 @@ export const projects = [
         title: 'Zomato-Clone',
         image: pen,
         linkGithub: 'https://github.com/Bhanuteja005/zomato-master',
-        linkOnline: 'https://nutritrack-ai.vercel.app/',
         description: 'Developed a full-fledged Zomato clone website, replicating the core functionalities of the popular food delivery platform to enhance user engagement and usability.',
         techStack: ['MERN Stack', 'Tailwind CSS']
     },
@@ -50,6 +49,7 @@ export const projects = [
         title: 'NutriTrack',
         image: ora,
         linkGithub: 'https://github.com/Bhanuteja005/NutriTrack',
+        linkOnline: 'https://nutritrack-ai.vercel.app/',
         description: 'Created NutriTrack, an AI-powered nutrition companion that offers personalized recipe suggestions, goal tracking, and smart shopping lists to support healthier lifestyle choices.',
         techStack: ['JavaScript', 'AI', 'Python']
     },
@@ -98,7 +98,7 @@ export const articles = [
         title: "Resume",
         resume: "Crafted a compelling resume that succinctly showcases my key qualifications and achievements, leaving a lasting impression on potential opportunities.",
         url:
-            "https://heyzine.com/flip-book/cb1566d64e.html",
+            "https://drive.google.com/file/d/1Y0oVGJCtzgoTwjriDQFb0_XI5WqDevN4/view?usp=drivesdk",
         image: a1
     },
     {
