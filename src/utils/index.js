@@ -31,17 +31,26 @@ export const projects = [
         techStack: ['Flutterflow', 'Barcode Integration', 'Firebase']
     },
     {
+        title: 'Talented.ai',
+        image: tracer,
+        linkGithub: 'https://github.com/Bhanuteja005/Talented.ai',
+        linkOnline: 'https://talented-aii.vercel.app/',
+        description: 'Developed Talented.ai, an AI-driven platform that automates candidate screening and ranking, optimizing the recruitment process.',
+        techStack: ['MERN Stack', 'AI']
+    },
+    {
         title: 'Zomato-Clone',
         image: pen,
         linkGithub: 'https://github.com/Bhanuteja005/zomato-master',
+        linkOnline: 'https://nutritrack-ai.vercel.app/',
         description: 'Developed a full-fledged Zomato clone website, replicating the core functionalities of the popular food delivery platform to enhance user engagement and usability.',
         techStack: ['MERN Stack', 'Tailwind CSS']
     },
     {
-        title: 'SLIMQ',
+        title: 'NutriTrack',
         image: ora,
-        linkGithub: 'https://github.com/Bhanuteja005/chatbot-bha',
-        description: 'Engineered a chatbot using LSTM-based neural network for intent classification and randomized response generation from a curated dataset.',
+        linkGithub: 'https://github.com/Bhanuteja005/NutriTrack',
+        description: 'Created NutriTrack, an AI-powered nutrition companion that offers personalized recipe suggestions, goal tracking, and smart shopping lists to support healthier lifestyle choices.',
         techStack: ['JavaScript', 'AI', 'Python']
     },
     {
@@ -52,14 +61,7 @@ export const projects = [
         description: 'Crafted an isometric maze game in JavaScript using Prims algorithm for generation, featuring wall display, character movement, and Python script for maze generation.',
         techStack: ['React', 'Tailwind CSS', 'Firebase', 'Replicate', 'Llama2']
     },
-    {
-        title: 'Placement-Portal',
-        image: tracer,
-        linkGithub: 'https://github.com/Bhanuteja005/Placement',
-        linkOnline: null,
-        description: 'Created a dynamic placement portal for streamlined recruitment processes, offering a user-friendly interface, resume uploads, and automated job matching.',
-        techStack: ['Bootstrap', 'Javascript']
-    },
+    
     {
         title: 'Ehub',
         image: insta,
