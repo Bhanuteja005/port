@@ -46,7 +46,7 @@ const About = () => {
                     <div className="pb-3">
                         Currently, I work passively for{' '}
                         <Tooltip
-                            name={'AIM'}
+                            name={'Google dgc'}
                             path={''}
                             image={transition}
                         />{' '}
