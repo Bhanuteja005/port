@@ -9,7 +9,7 @@ import a4 from "../assets/images/a4.webp";
 import insta from "../assets/images/techn.jpg";
 export const headlines = [
     "Hi, I'm Bhanu Teja.",
-    "I'm an AI enthusiast.",
+    "I'm an AI Enthusiast.",
 "In recent years, I've focused on building scalable frontend software, tackling backend challenges, and incorporating AI to enhance functionality."];
 
 export const fixedNavItems = [
@@ -97,7 +97,7 @@ export const articles = [
         title: "Resume",
         resume: "Crafted a compelling resume that succinctly showcases my key qualifications and achievements, leaving a lasting impression on potential opportunities.",
         url:
-            "https://drive.google.com/file/d/154onvPWxw_dap3D6v3BLPQeQdg1aqgii/view?usp=sharing",
+            "https://drive.google.com/file/d/1rKDnwPuquWMhfaW_dKbRaHIWuan24q8T/view?usp=sharing",
         image: a1
     },
     {
