@@ -97,7 +97,7 @@ export const articles = [
         title: "Resume",
         resume: "Crafted a compelling resume that succinctly showcases my key qualifications and achievements, leaving a lasting impression on potential opportunities.",
         url:
-            "https://drive.google.com/file/d/1rKDnwPuquWMhfaW_dKbRaHIWuan24q8T/view?usp=sharing",
+            "https://drive.google.com/file/d/1ANJgrPVgQCSx2TAkSVCizoUnI6lfBCrk/view?usp=sharing",
         image: a1
     },
     {
