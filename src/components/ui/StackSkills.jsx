@@ -62,7 +62,7 @@ const StackSkills = ({ title, icon, list }) => {
                         variants={staggerVariants}
                         animate={control}
                         key={idx}
-                        className="py-1 text-base bg-third rounded-full text-secondary-text text-center"
+                        className="py-1 text-base bg-third border border-third/60 rounded-full text-secondary-text text-center hover:border-secondary/40 hover:text-secondary transition-colors duration-200"
                     >
                         {item}
                     </motion.div>

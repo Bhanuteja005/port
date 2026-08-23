@@ -25,7 +25,7 @@ const ProjectCard = ({ project }) => {
             }}
         >
             <CardContainer>
-                <CardBody className="bg-third relative group/card border-black/[0.1] w-auto lg:w-[25rem] lg:h-[25rem] h-auto rounded-xl p-6 border">
+                <CardBody className="card-surface bg-third relative group/card border-third/60 w-auto lg:w-[25rem] lg:min-h-[25rem] h-auto rounded-xl p-6 border flex flex-col transition-shadow duration-300">
                     <CardItem
                         translateZ="50"
                         className="text-xl font-semibold text-primary-text"
@@ -66,7 +66,7 @@ const ProjectCard = ({ project }) => {
                             <CardItem
                                 translateZ={20}
                                 as="button"
-                                className="px-4 py-2 rounded-xl text-white text-xl font-bold hover:bg-secondary"
+                                className="px-4 py-2 rounded-xl text-primary-text text-xl font-bold hover:bg-secondary hover:text-white"
                             >
                                 <Link to={project.linkGithub}><FaGithub /></Link>
                             </CardItem>

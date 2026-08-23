@@ -2,6 +2,7 @@ import { motion, useAnimation } from "framer-motion";
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
 import { fixedNavItems } from '../../utils';
+import ThemeToggle from '../ui/ThemeToggle';
 
 const FixedNavBar = () => {
     const [state, setState] = useState(false)
@@ -19,12 +20,13 @@ const FixedNavBar = () => {
     const Brand = () => (
         <div className="flex items-center justify-between py-5 md:block">
             <Link to={'/'} className="flex gap-1 group">
-                <span className="font-bold text-[1.3rem] text-white group-hover:text-secondary transition-colors duration-500">Bhanu Teja</span>
-                <span className="w-2 h-2 rounded-full bg-primary-red group-hover:bg-white bg-secondary transition-colors duration-500"></span>
+                <span className="font-bold text-[1.3rem] text-primary-text group-hover:text-secondary transition-colors duration-500 font-raleway">Bhanu Teja</span>
+                <span className="w-2 h-2 rounded-full bg-secondary group-hover:bg-primary-text transition-colors duration-500"></span>
             </Link>
 
-            <div className="md:hidden">
-                <button className="menu-btn text-gray-400 hover:text-gray-300"
+            <div className="flex items-center gap-3 md:hidden">
+                <ThemeToggle />
+                <button className="menu-btn text-secondary-text hover:text-primary-text"
                     onClick={() => setState(!state)}
                 >
                     {
@@ -57,7 +59,7 @@ const FixedNavBar = () => {
                             {
                                 fixedNavItems.map((navItem, idx) => {
                                     return (
-                                        <li key={idx} className="text-gray-300 transition-li hover:transform-li text-base">
+                                        <li key={idx} className="text-secondary-text transition-li hover:transform-li text-base">
                                             <Link
                                                 to={
                                                     navItem.name.toLocaleLowerCase()
@@ -74,6 +76,9 @@ const FixedNavBar = () => {
                                     )
                                 })
                             }
+                            <li className="hidden md:block">
+                                <ThemeToggle />
+                            </li>
                         </ul>
                     </div>
                 </div>

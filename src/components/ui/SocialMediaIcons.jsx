@@ -39,14 +39,14 @@ export const SocialMediaIcons = () => {
 const socialMediaLinks = [
     {
         url: 'https://www.linkedin.com/in/bhanu-teja-p-457955253/',
-        iconComponent: <FaLinkedin className="fill-white hover:fill-secondary" size={25} />
+        iconComponent: <FaLinkedin className="fill-primary-text hover:fill-secondary" size={25} />
     },
     {
         url: 'https://github.com/Bhanuteja005',
-        iconComponent: <FaGithub className="fill-white hover:fill-secondary" size={25} />
+        iconComponent: <FaGithub className="fill-primary-text hover:fill-secondary" size={25} />
     },
     {
         url: 'https://medium.com/@pashikantibhanuteja',
-        iconComponent: <FaMedium className="fill-white hover:fill-secondary" size={25} />
+        iconComponent: <FaMedium className="fill-primary-text hover:fill-secondary" size={25} />
     },
 ];

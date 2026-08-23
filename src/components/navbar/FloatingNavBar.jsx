@@ -6,6 +6,7 @@ import {
 } from "framer-motion";
 import React from "react";
 import { Link, animateScroll } from 'react-scroll';
+import ThemeToggle from '../ui/ThemeToggle';
 
 export const FloatingNavBar = ({ className, visible }) => {
     const scrollToTop = (navItem) => {
@@ -28,7 +29,7 @@ export const FloatingNavBar = ({ className, visible }) => {
                 transition={{
                     duration: 0.2,
                 }}
-                className={`flex max-w-fit fixed top-5 inset-x-0 mx-auto border border-transparent rounded-full bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] pr-2 pl-8 py-2  items-center justify-center space-x-4 ${className}`}
+                className={`flex max-w-fit fixed top-5 inset-x-0 mx-auto border border-third rounded-full bg-third shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] pr-2 pl-8 py-2  items-center justify-center space-x-4 ${className}`}
             >
                 {floatingNavItems.map((navItem, idx) => (
                     <Link
@@ -44,7 +45,7 @@ export const FloatingNavBar = ({ className, visible }) => {
                             scrollToTop
                         }
                         key={`link=${idx}`}
-                        className={`relative items-center flex space-x-1 text-neutral-600 transition-li hover:transform-li cursor-pointer ${className}`}
+                        className={`relative items-center flex space-x-1 text-secondary-text transition-li hover:transform-li cursor-pointer ${className}`}
                     >
                         <span className="block sm:hidden">{navItem.icon}</span>
                         <span className="hidden sm:block text-sm md:text-base">{navItem.name}</span>
@@ -57,10 +58,11 @@ export const FloatingNavBar = ({ className, visible }) => {
                     spy={true}
                     offset={-50}
                     activeClass="active"
-                    className="border text-sm md:text-base font-medium relative border-neutral-200 text-primary  px-4 py-2 rounded-full cursor-pointer">
+                    className="border text-sm md:text-base font-medium relative border-third text-primary-text px-4 py-2 rounded-full cursor-pointer">
                     <span>Contact</span>
                     <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-secondary to-transparent  h-px" />
                 </Link>
+                <ThemeToggle className="ml-1" />
             </motion.div>
         </AnimatePresence >
     );
@@ -70,26 +72,26 @@ const floatingNavItems = [
     {
         name: "Home",
         icon: (
-            <IconHome className="h-4 w-4 fill-white hover:fill-secondary" activeclass="active" />
+            <IconHome className="h-4 w-4 fill-primary-text hover:fill-secondary" activeclass="active" />
         ),
     },
     {
         name: "About",
         icon: (
-            <IconUser className="h-4 w-4 fill-white hover:fill-secondary" activeclass="active" />
+            <IconUser className="h-4 w-4 fill-primary-text hover:fill-secondary" activeclass="active" />
         ),
     },
     
     {
         name: "Projects",
         icon: (
-            <IconPrompt className="h-4 w-4 fill-white hover:fill-secondary" activeclass="active" />
+            <IconPrompt className="h-4 w-4 fill-primary-text hover:fill-secondary" activeclass="active" />
         ),
     },
     {
         name: "Featured",
         icon: (
-            <IconPrompt className="h-4 w-4 fill-white hover:fill-secondary" activeclass="active" />
+            <IconPrompt className="h-4 w-4 fill-primary-text hover:fill-secondary" activeclass="active" />
         ),
     },
 ];

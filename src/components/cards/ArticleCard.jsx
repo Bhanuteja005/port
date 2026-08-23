@@ -20,7 +20,7 @@ const ArticleCard = ({ article }) => {
                 scale: scaleProgress,
                 opacity: opacityProgress
             }}
-            className="relative flex flex-col mt-2 text-primary-text bg-third shadow-md bg-clip-border rounded-xl sm-80 md:w-[21rem] lg:w-[25rem] mb-3">
+            className="card-surface relative flex flex-col mt-2 text-primary-text bg-third border border-third/60 bg-clip-border rounded-xl sm-80 md:w-[21rem] lg:w-[25rem] mb-3 transition-shadow duration-300">
             <div
                 className="relative h-56 mx-4 -mt-6 overflow-hidden shadow-lg bg-clip-border rounded-xl shadow-blue-gray-500/40">
                 <DirectionAwareHover imageUrl={article.image} />
@@ -35,7 +35,7 @@ const ArticleCard = ({ article }) => {
             </div>
             <div className="p-6 pt-0">
                 <a href={article.url}
-                    className="align-middle text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-z py-3 px-6 rounded-lg hover:bg-secondary text-white shadow-md shadow-gray-900/10 hover:shadow-lg bg-primary focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                    className="align-middle text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-z py-3 px-6 rounded-full hover:bg-secondary hover:-translate-y-0.5 text-primary-text hover:text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-secondary/30 bg-primary border border-third focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
                     type="button">
                     Read More
                 </a>

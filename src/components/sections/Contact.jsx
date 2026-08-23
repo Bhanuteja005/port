@@ -114,7 +114,7 @@ const Contact = () => {
                                 type="email"
                                 id="email"
                                 name="email"
-                                className="shadow-sm bg-third border border-third text-primary-text text-base rounded-lg focus:ring-primary-500 block w-full p-2.5 placeholder-secondary-text focus:outline-none focus:right-2 focus:border-secondary" placeholder="email here"
+                                className="shadow-sm bg-third border border-third/70 text-primary-text text-base rounded-lg focus:ring-primary-500 block w-full p-2.5 placeholder-secondary-text focus:outline-none focus:right-2 focus:border-secondary" placeholder="email here"
                                 required
                                 value={formData.email}
                                 onChange={handleChange} />
@@ -133,7 +133,7 @@ const Contact = () => {
                                 type="text"
                                 id="subject"
                                 name="subject"
-                                className="block p-3 w-full text-base text-primary-text bg-third rounded-lg border border-third shadow-sm placeholder-secondary-text focus:outline-none focus:right-2 focus:border-secondary"
+                                className="block p-3 w-full text-base text-primary-text bg-third rounded-lg border border-third/70 shadow-sm placeholder-secondary-text focus:outline-none focus:right-2 focus:border-secondary"
                                 placeholder="subject here"
                                 required
                                 value={formData.subject}
@@ -153,7 +153,7 @@ const Contact = () => {
                                 id="message"
                                 name="message"
                                 rows="6"
-                                className="block p-2.5 w-full text-base text-primary-text bg-third rounded-lg shadow-sm border border-third placeholder-secondary-text focus:outline-none focus:right-2 focus:border-secondary"
+                                className="block p-2.5 w-full text-base text-primary-text bg-third rounded-lg shadow-sm border border-third/70 placeholder-secondary-text focus:outline-none focus:right-2 focus:border-secondary"
                                 placeholder="your message..."
                                 value={formData.message}
                                 onChange={handleChange}

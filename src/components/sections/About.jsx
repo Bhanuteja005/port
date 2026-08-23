@@ -37,14 +37,14 @@ const About = () => {
                     animate={control}
                     className="flex-1 text-base">
                     <p className="pb-3">
-                        Hey there! I'm Bhanu Teja, a full-stack &amp; AI engineer based in Hyderabad. I build production software end-to-end — from React/Next.js frontends to Node.js and Python backends — with a growing focus on shipping AI-powered products.
+                        Hey there! I'm Bhanu Teja, a full-stack &amp; AI engineer based in Hyderabad. I build production software end-to-end, from React/Next.js frontends to Node.js and Python backends, with a growing focus on shipping AI-powered products.
                     </p>
 
                     <div className="pb-3">
-                        Over the past year I've built production systems across several teams — an AI voice-calling agent for hospitals at{' '}
+                        Over the past year I've built production systems across several teams: an AI voice-calling agent for hospitals at{' '}
                         <span className="text-secondary">Nyra AI</span>, a unified social platform at{' '}
                         <span className="text-secondary">Novalink Solutions</span>, and an AI-powered food-authenticity verification system at{' '}
-                        <span className="text-secondary">Altibbe Health</span> — while also building and running my own SaaS products,{' '}
+                        <span className="text-secondary">Altibbe Health</span>. I also build and run my own SaaS products,{' '}
                         <span className="text-secondary">LeadGen</span> and{' '}
                         <span className="text-secondary">InstantScale</span>.
                     </div>
@@ -54,7 +54,7 @@ const About = () => {
                     </div>
 
                     <div className="pb-3">
-                        Always open to new challenges and collaborations — if you're building something interesting, let's connect.
+                        Always open to new challenges and collaborations. If you're building something interesting, let's connect.
                     </div>
                 </motion.div>
 

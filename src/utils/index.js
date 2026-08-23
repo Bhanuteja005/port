@@ -13,7 +13,7 @@ import tradingSystem from "../assets/images/trading-system-og.png";
 export const headlines = [
     "Hi, I'm Bhanu Teja.",
     "I'm an AI Enthusiast.",
-"In recent years, I've focused on building scalable frontend software, tackling backend challenges, and incorporating AI to enhance functionality."];
+"I focus on building production ready software, engineering AI powered systems, and shipping full stack products end to end."];
 
 export const fixedNavItems = [
     { name: "Home" },
@@ -61,7 +61,7 @@ export const projects = [
         image: amd,
         linkGithub: 'https://github.com/Bhanuteja005/Advanced-Answering-Machine-Detection-AMD',
         linkOnline: null,
-        description: 'Full-stack outbound calling system that detects human vs. voicemail pickup using four interchangeable strategies — Twilio AMD, HuggingFace wav2vec, Gemini multimodal, and Jambonz SIP.',
+        description: 'Full-stack outbound calling system that detects human vs. voicemail pickup using four interchangeable strategies: Twilio AMD, HuggingFace wav2vec, Gemini multimodal, and Jambonz SIP.',
         techStack: ['Next.js', 'TypeScript', 'Prisma', 'Twilio', 'Gemini']
     },
     {

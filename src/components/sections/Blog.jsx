@@ -17,7 +17,7 @@ const Featured = () => {
 
             <div className="p-6 pt-0 text-center mt-10">
                 <a href="https://www.linkedin.com/in/bhanu-teja-p-457955253/"
-                    className="align-middle text-center font-medium uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-base py-3 px-6 rounded-lg hover:bg-[#6b90bd] text-white shadow-md shadow-gray-900/10 hover:shadow-lg bg-secondary focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                    className="align-middle text-center font-medium uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-base py-3 px-6 rounded-full hover:bg-indigo-500 text-white shadow-lg shadow-secondary/20 hover:shadow-secondary/40 hover:-translate-y-0.5 bg-secondary focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
                     type="button">
                     See More
                 </a>

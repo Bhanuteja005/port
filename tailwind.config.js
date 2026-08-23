@@ -23,17 +23,18 @@ export default {
 
     extend: {
       fontFamily: {
-        'raleway': ['Raleway', '-apple-system',],
-        'lato': ['Lato', 'ui-sans-serif',],
+        'sans': ['Lato', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif'],
+        'raleway': ['Raleway', '-apple-system', 'sans-serif'],
+        'lato': ['Lato', 'ui-sans-serif', 'sans-serif'],
       },
 
       colors: {
-        "dark-gray": "#111111",
-        "primary": "#0f172a",
-        "secondary": "#6366f1",
-        "third": "#21293b",
-        "primary-text": "#f1f5f9",
-        "secondary-text": "#808ea3"
+        "dark-gray": "rgb(var(--color-dark-gray) / <alpha-value>)",
+        "primary": "rgb(var(--color-primary) / <alpha-value>)",
+        "secondary": "rgb(var(--color-secondary) / <alpha-value>)",
+        "third": "rgb(var(--color-third) / <alpha-value>)",
+        "primary-text": "rgb(var(--color-primary-text) / <alpha-value>)",
+        "secondary-text": "rgb(var(--color-secondary-text) / <alpha-value>)"
       },
 
       screens: {
@@ -65,25 +66,10 @@ export default {
 
   plugins: [
     require("@tailwindcss/aspect-ratio"),
-    addVariablesForColors,
     backgroundSVG
   ],
 
   darkMode: 'class',
-}
-
-// This plugin adds each Tailwind color as a global CSS variable
-function addVariablesForColors({ addBase, theme }) {
-  let allColors = theme("colors");
-  let newVars = Object.fromEntries(
-    Object.entries(allColors).flatMap(([key, val]) =>
-      typeof val === "string" ? [[`--${key}`, val]] : Object.entries(val).map(([subKey, subVal]) => [`--${key}-${subKey}`, subVal])
-    )
-  );
-
-  addBase({
-    ":root": newVars,
-  });
 }
 
 function backgroundSVG({ matchUtilities, theme }) {

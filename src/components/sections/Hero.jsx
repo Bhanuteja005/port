@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useRef } from "react";
 import { animateScroll } from 'react-scroll';
-import profile from "../../assets/images/las.jpeg";
+import profile from "../../assets/images/bhanu-profile.jpg";
 import { headlines } from '../../utils';
 import hover3d from "../../utils/hover";
 import { CustomButton } from "../buttons/CustomButton";
@@ -30,7 +30,7 @@ const Hero = () => {
     };
 
     return (
-        <div className="bg-primary bg-grid-small-white/[0.2]" id="home">
+        <div className="bg-primary bg-grid-theme" id="home">
             <NavBar />
 
             <section ref={hero}>
@@ -45,12 +45,12 @@ const Hero = () => {
                             <div>
                                 <AnimatedTitle
                                     text={headlines[0]}
-                                    className="text-4xl font-extrabold mx-auto md:text-5xl text-primary-text"
+                                    className="text-4xl font-extrabold mx-auto md:text-5xl text-primary-text font-raleway tracking-tight"
                                     color={true} />
 
                                 <AnimatedSubtitle
                                     text={headlines[1]}
-                                    className="text-secondary-text text-2xl md:text-3xl mx-auto font-bold break-words" />
+                                    className="text-secondary-text text-2xl md:text-3xl mx-auto font-bold break-words font-raleway tracking-tight" />
                             </div>
 
                             <motion.div
@@ -72,8 +72,7 @@ const Hero = () => {
                                 <img
                                     src={profile}
                                     alt="Profile"
-                                    
-                                    className='rounded-full border-2 border-secondary'
+                                    className='rounded-full border-2 border-secondary object-cover object-top'
                                     style={{
                                         transform: imageHover.transform,
                                         height: '100px',
