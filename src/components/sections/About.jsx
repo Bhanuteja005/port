@@ -3,12 +3,9 @@ import { useEffect } from "react";
 import { FaCode } from "react-icons/fa6";
 import { TbBrandFunimation } from "react-icons/tb";
 import { useInView } from "react-intersection-observer";
-import transition from "../../assets/images/transition.png";
-import zoomer from "../../assets/images/zoomer.png";
 import { skillsFun, skillsWork } from "../../utils";
 import SectionHeader from "../ui/SectionHeader";
 import StackSkills from "../ui/StackSkills";
-import Tooltip from "../ui/Tooltip";
 
 const About = () => {
     const control = useAnimation();
@@ -40,34 +37,24 @@ const About = () => {
                     animate={control}
                     className="flex-1 text-base">
                     <p className="pb-3">
-                        Hey there! I'm P Bhanu Teja, a computer sciene student based in Hyderabad. I specialize in frontend development, particularly using Tailwind CSS, but I'm also comfortable with various tools and adapt to project needs. I also have experience in Backend development.
+                        Hey there! I'm Bhanu Teja, a full-stack &amp; AI engineer based in Hyderabad. I build production software end-to-end — from React/Next.js frontends to Node.js and Python backends — with a growing focus on shipping AI-powered products.
                     </p>
 
                     <div className="pb-3">
-                        Currently, I work passively for{' '}
-                        <Tooltip
-                            name={'Google dgc'}
-                            path={''}
-                            image={transition}
-                        />{' '}
-
-                        and contribute to the
-                        <span className="text-secondary"> StartUp </span>
-                        project at{' '}
-
-                        <Tooltip
-                            name={'Skout'}
-                            path={''}
-                            image={zoomer}
-                        />
+                        Over the past year I've built production systems across several teams — an AI voice-calling agent for hospitals at{' '}
+                        <span className="text-secondary">Nyra AI</span>, a unified social platform at{' '}
+                        <span className="text-secondary">Novalink Solutions</span>, and an AI-powered food-authenticity verification system at{' '}
+                        <span className="text-secondary">Altibbe Health</span> — while also building and running my own SaaS products,{' '}
+                        <span className="text-secondary">LeadGen</span> and{' '}
+                        <span className="text-secondary">InstantScale</span>.
                     </div>
 
                     <div className="pb-3">
-                        Outside of the world of code, I'm the guy who enjoys playing Basketball and Table Tennis. 
+                        Outside of code, I play Basketball and Table Tennis.
                     </div>
 
                     <div className="pb-3">
-                        I'm looking for new opportunities where I can merge my love for code with my love for learning to solve challenging problems. If you have an opening that you think might be a good fit, let's connect and explore the possibilities!
+                        Always open to new challenges and collaborations — if you're building something interesting, let's connect.
                     </div>
                 </motion.div>
 
